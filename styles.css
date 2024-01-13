@@ -84,7 +84,7 @@ nav li {
 
 .snd-title {
     margin-left: 74px;
-    
+
 }
 
 .quick {
@@ -106,6 +106,140 @@ nav li {
 
 }
 
+.third-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.enjoy {
+    margin-top: 160px;
+    margin-bottom: 24px;
+    border-left: #FF900E solid 3px;
+    padding-left: 20px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feature-content .card {
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 30px;
+    margin-bottom: 20px;
+    margin-right: 145px;
+}
+
+.mdm-architect {
+    margin-top: 130px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+
+.year {
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    padding: 45px 42px;
+}
+
+.ten {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.experience {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.forth-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.facts {
+    margin-bottom: 100px;
+}
+
+.facts h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.cards-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-details div {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 50px 38px 60px;
+    margin-bottom: 180px;
+}
+
+.fifth-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sponspors-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponspors-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-part{
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    height: 100px;
+    text-align: center;
+    padding-top: 39px;
+    margin-bottom: 150px;
+}
+
+.all-right{
+color: #424242;
+font-size: 20px;
+font-weight: 400;
+}
+
+
 @media screen and (max-width:576px) {
     header {
         .nav-title {
@@ -118,13 +252,36 @@ nav li {
         }
 
     }
-    .container-designers{
+
+    .container-designers {
         flex-direction: column;
     }
-    .container-designers .snd-images{
+
+    .container-designers .snd-images {
         display: flex;
         flex-direction: column;
     }
+
+    .third-section {
+        flex-direction: column;
+    }
+
+    .mdm-architect {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .cards-details {
+        flex-direction: column;
+    }
+
+    .sponspors-logo {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -138,11 +295,23 @@ nav li {
             margin-left: 40px;
         }
     }
-    .container-designers{
+
+    .container-designers {
         flex-direction: column;
     }
-    .container-designers .snd-images{
+
+    .container-designers .snd-images {
         gap: 5px;
-        
+
     }
+
+    .third-section {
+        flex-direction: column;
+    }
+
+    .sponspors-logo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
